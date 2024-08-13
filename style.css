@@ -10,7 +10,7 @@
 .display-flex {
   display: flex;
 }
-.text-orng {
+.text-org {
   color: #e6533c;
 }
 .text-1 {
@@ -25,6 +25,25 @@
     #111 0%,
     rgba(119, 119, 119, 0) 100%
   );
+}
+
+.btn-1 {
+  background-color: #e6533c;
+  color: #fff;
+  padding: 16px 40px;
+  font-size: 1.125rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 42px;
+}
+.btn-2 {
+  background-color: #111;
+  color: #fff;
+  padding: 16px 40px;
+  font-size: 1.125rem;
+  font-weight: 600;
+  border-radius: 42px;
+  border: 1px solid #fff;
 }
 
 /* header style */
@@ -53,7 +72,35 @@
 }
 .brand {
   color: #e6533c;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-style: italic;
   font-weight: 800;
+}
+/* banner related */
+.banner-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: start;
+}
+.banner-title {
+  font-size: 4.875rem;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+.banner-description {
+  margin-bottom: 28px;
+}
+.banner-img {
+  width: 350px;
+  height: 580px;
+  margin-left: 167px;
+}
+
+/* responssive */
+@media screen and (max-width: 576px) {
+  .navbar,
+  .nav-links,
+  .banner {
+    flex-direction: column;
+  }
 }
