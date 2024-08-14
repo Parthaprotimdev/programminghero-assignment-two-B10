@@ -114,24 +114,23 @@ body {
   font-weight: 900;
   margin-bottom: 14px;
 }
-.habit-details{
+.habit-details {
   text-align: center;
   font-size: 14px;
   font-weight: 400;
 }
 
 .card {
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
   margin: 58px 190px;
-  gap: 30px;
 }
-.card-title{
-  font-size: 18px; 
+.card-title {
+  font-size: 18px;
   font-weight: 600;
 }
-.card-details{
+.card-details {
   font-size: 14px;
   font-weight: 400;
 }
